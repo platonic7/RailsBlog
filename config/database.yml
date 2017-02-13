@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: RailsBlog_production
-  username: RailsBlog
-  password: <%= ENV['RAILSBLOG_DATABASE_PASSWORD'] %>
+  username: jin
+  password: 1234
